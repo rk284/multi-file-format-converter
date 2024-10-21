@@ -1,0 +1,15 @@
+{
+    "name": "php_project/multifile_converter",
+    "description": "A simple PHP project",
+    "type": "project",
+    "require": {
+        "phpoffice/phpword": "^1.3",
+        "dompdf/dompdf": "^3.0",
+        "setasign/fpdf": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpProject\\MultifileConverter\\": "src/"
+        }
+    }
+}
